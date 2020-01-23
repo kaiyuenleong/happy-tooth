@@ -94,6 +94,10 @@ body {
   height: 400px;
 }
 
+.navbar-custom {
+  background-color: #69B2E2;
+}
+
 .news-and-press {
   /* background: url("images/dreamstime_xxl_108885965.png") 0 0 no-repeat fixed;
   height: 100%;
