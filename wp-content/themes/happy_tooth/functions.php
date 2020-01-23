@@ -8,25 +8,35 @@
 
   add_action('wp_enqueue_scripts', 'setup');
 
-  function bootstrapstarter_enqueue_styles() {
-    wp_register_style('bootstrap', get_template_directory_uri().'/bootstrap/css/bootstrap.min.css');
-    $dependencies = array('bootstrap');
-    wp_enqueue_style('boostrapstarter-style', get_stylesheet_uri(), $dependencies);
+
+  function theme_enqueue_scripts() {
+    wp_enqueue_style('Bootstrap_css', get_template_directory_uri().'/bootstrap/css/bootstrap.min.css');
+    wp_enqueue_script('jQuery', 'https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js', array(), '3.4.1', true);
+    wp_enqueue_script('Popper', 'https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/esm/popper.min.js', array(), '1.16.1', true);
+    wp_enqueue_script('Bootstrap', get_template_directory_uri().'/bootstrap/js/bootstrap.min.js', array(), '1.0.0', true);
   }
 
-  function jquerystarter() {
-    wp_deregister_script('jquery');
-    wp_register_script('jquery', "https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js", false, null);
-  }
+  add_action('wp_enqueue_scripts', 'theme_enqueue_scripts');
 
-  function boostrapstarter_enqueue_scripts() {
-    wp_enqueue_script('jquery');
-    wp_enqueue_script('bootstrap', get_template_directory_uri().'/bootstrap/js/bootstrap.min.js', array('jquery'), '3.4.1', true);
-  }
+  // function bootstrapstarter_enqueue_styles() {
+  //   wp_register_style('bootstrap', get_template_directory_uri().'/bootstrap/css/bootstrap.min.css');
+  //   $dependencies = array('bootstrap');
+  //   wp_enqueue_style('boostrapstarter-style', get_stylesheet_uri(), $dependencies);
+  // }
 
-  add_action('wp_enqueue_scripts', 'jquerystarter');
-  add_action('wp_enqueue_scripts', 'bootstrapstarter_enqueue_styles');
-  add_action('wp_enqueue_scripts', 'bootstrapstarter_enqueue_scripts');
+  // function jquerystarter() {
+  //   wp_deregister_script('jquery');
+  //   wp_register_script('jquery', "https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js", false, null);
+  // }
+
+  // function boostrapstarter_enqueue_scripts() {
+  //   wp_enqueue_script('jquery');
+  //   wp_enqueue_script('bootstrap', get_template_directory_uri().'/bootstrap/js/bootstrap.min.js', array('jquery'), '3.4.1', true);
+  // }
+
+  // add_action('wp_enqueue_scripts', 'jquerystarter');
+  // add_action('wp_enqueue_scripts', 'bootstrapstarter_enqueue_styles');
+  // add_action('wp_enqueue_scripts', 'bootstrapstarter_enqueue_scripts');
 
   // Adding theme support
   function init() {
