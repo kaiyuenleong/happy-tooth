@@ -1,0 +1,121 @@
+/*
+Theme Name: Happy Tooth Wordpress Theme
+Author: Kai Yuen Leong
+Author URI: http://www.kaiyuenleong.com
+Description: A basic theme for Happy Tooth
+Version: 1.0
+*/
+
+body {
+  padding-top: 50px;
+}
+
+#about-header {
+  text-align: center;
+  font-size: 25px;
+  font-family: 'Roboto Slab', sans-serif;
+  font-weight: 100;
+  margin-bottom: 10px;
+}
+
+#about-header > span {
+  font-weight: bold;
+}
+
+#about-image {
+  width: 100%;
+  height: auto;
+  margin: 30px 0 40px 0;
+}
+
+#logo-container {
+  text-align: center;
+  margin: 20px 0 20px 0;
+}
+
+#jumbotron-header {
+  font-family: 'Roboto Slab', sans-serif;
+  font-size: 25px;
+  text-align: left;
+  color: #FFF;
+  font-weight: 100;
+  margin-top: 15px;
+}
+
+#jumbotron-header span {
+  font-weight: bold;
+  font-size: 24px;
+}
+
+#news-header {
+  font-family: 'Roboto Slab', sans-serif;
+  font-size: 25px;
+  text-align: center;
+  color: #FFF;
+}
+
+#program-button {
+  width: 170px;
+  border: 3px solid white;
+  border-radius: 3px;
+  font-family: 'Roboto', sans-serif;
+  line-height: 16px;
+  font-weight: bold;
+  text-align: center;
+  background-color: transparent;
+  font-size: 12px;
+  color: white;
+  padding: 12px 12px 12px 12px;
+  margin-top: 15px;
+}
+
+.about {
+  background-color: #FFF;
+}
+
+.about-button {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  border: 3px solid #69B2E2;
+  color: #69B2E2;
+  background-color: #FFF;
+  line-height: 16px;
+  width: 200px;
+  padding: 12px 15px 12px 15px;
+  margin-top: 10px;
+}
+
+.jumbotron {
+  background: url("images/dreamstime_xxl_100395767.png");
+  background-position: 100% 0%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+}
+
+.news-and-press {
+  /* background: url("images/dreamstime_xxl_108885965.png") 0 0 no-repeat fixed;
+  height: 100%;
+  overflow: hidden;
+  color: #FFF; */
+  background-color: #69B2E2;
+}
+
+.footer {
+  background-color: #EAEAEA;
+  text-align: center;
+  padding: 10px 5px 10px 5px;
+}
+
+.footer p {
+  color: #ACACAC;
+  font-size: 11px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  margin: 20px 0 0 0;
+}
+
+.program-button-container {
+  text-align: right;
+}
