@@ -39,7 +39,10 @@
 			</div>
 			<div class="row">
 				<div class="col">
-					<img id="about-image" src="wp-content\themes\happy_tooth\images\IMG_1937.png" />
+					<span class="bkg">
+						<span class="toothbrush"></span>
+						<img id="about-image" src="wp-content\themes\happy_tooth\images\IMG_1937.png" />
+					</span>
 				</div>
 			</div>
 		</div>
