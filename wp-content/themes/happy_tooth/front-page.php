@@ -6,7 +6,7 @@
 		<div class="col">
 			<div class="row">
 				<div class="col-8 offset-4">
-					<h1 id="jumbotron-header">
+					<h1 id="jumbotron-header" class="common-font">
 						<div>Buy a brush.</div>
 						<div>Give a brush.</div>
 						<div><span>Make a smile.</span></div>
@@ -24,7 +24,7 @@
 		<div class="col">
 			<div class="row">
 				<div class="col">
-					<h1 id="about-header">The Happy Tooth <span>Family Mission</span></h1>
+					<h1 id="about-header" class="common-font">The Happy Tooth <span>Family Mission</span></h1>
 				</div>
 			</div>
 			<div class="row">
@@ -41,7 +41,7 @@
 				<div class="col">
 					<span class="bkg">
 						<span class="toothbrush"></span>
-						<img id="about-image" src="wp-content\themes\happy_tooth\images\IMG_1937.png" />
+						<img id="about-image" src="wp-content\themes\happy_tooth\images\IMG_1937@2x.png" />
 					</span>
 				</div>
 			</div>
@@ -51,7 +51,7 @@
 		<div class="col">
 			<div class="row">
 				<div class="col">
-					<h1 id="news-header">News & Press</h1>
+					<h1 id="news-header" class="common-font">News & Press</h1>
 				</div>
 			</div>
 			<div class="row">

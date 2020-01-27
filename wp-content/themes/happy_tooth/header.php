@@ -10,7 +10,7 @@
 
 <body>
   <div class="container-fluid">
-    <nav class="navbar navbar-expand-lg fixed-top py-0 px-0">
+    <nav class="navbar navbar-expand-lg fixed-top py-0 px-0 navbarSupportedContent">
       <div class="navbar-brand">
         <i class="fab fa-facebook-f social-icon"></i>
         <i class="fab fa-twitter social-icon"></i>
