@@ -1,21 +1,21 @@
 <footer>
   <div class="container-fluid">
     <div class="footer row">
-      <div class="col-lg-6 col-sm-12 order-sm-12">
-        <a href="" class="social-icon">
-          <img src="<?php echo get_template_directory_uri(); ?>/images/facebook-f.png" alt="facebook logo">
+      <div class="col-md-6 col-sm-12 order-sm-12">
+        <a href="">
+          <i class="fab fa-facebook-f social-icon social-icon-footer"></i>
         </a>
-        <a href="" class="social-icon">
-          <img src="<?php echo get_template_directory_uri(); ?>/images/twitter.png" alt="twitter logo">
+        <a href="">
+          <i class="fab fa-twitter social-icon social-icon-footer"></i>
         </a>
-        <a href="" class="social-icon">
-          <img src="<?php echo get_template_directory_uri(); ?>/images/instagram.png" alt="instagram logo">
+        <a href="">
+          <i class="fab fa-instagram social-icon social-icon-footer"></i>
         </a>
-        <a href="" class="social-icon">
-          <img src="<?php echo get_template_directory_uri(); ?>/images/linkedin-in.png" alt="linkedin-in logo">
+        <a href="">
+          <i class="fab fa-linkedin-in social-icon social-icon-footer"></i>
         </a>
       </div>
-      <div class="col-lg-6 col-sm-12 order-sm-1">
+      <div class="col-md-6 col-sm-12 order-sm-1">
         <p>&#169 Copyright 2019 The Happy Tooth Family Foundation</p>
       </div>
     </div>
@@ -25,5 +25,4 @@
 <?php wp_footer(); ?>
 
 </body>
-
 </html>

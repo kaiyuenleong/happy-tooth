@@ -31,11 +31,6 @@ Version: 1.0
     background-color: #FFF;
   }
 
-  .navbar-brand {
-    color: #AD1F65;
-    margin-left: 1rem;
-  }
-
   .navbar-toggler {
     padding-top: 0 !important;
   }
@@ -63,7 +58,25 @@ Version: 1.0
   }
 
   .social-icon {
-    margin-left: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
+  .social-icon-navbar {
+    margin-left: 1em;
+  }
+
+  .social-icon-navbar a {
+    color: #AD1F65;
+  }
+
+  @media screen and (min-width: 768px) {
+    .navbar-collapse {
+      height: initial;    
+    }
+    .social-icon-navbar {
+      margin-left: 0.5em;
+    }
   }
 /* End of Navbar Styles */
 
@@ -81,6 +94,7 @@ Version: 1.0
     text-align: left;
     color: #FFF;
     margin-top: 15px;
+    margin-left: 90px;
   }
 
   #jumbotron-header span {
@@ -106,6 +120,28 @@ Version: 1.0
     padding: 12px 12px 12px 12px;
     margin-top: 15px;
   }
+
+  @media screen and (min-width: 768px) {
+    .jumbotron {
+      background: url("images/dreamstime_xxl_100395767.png");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover; 
+      height: 850px;
+      border-radius: 0 !important;
+    }
+    #jumbotron-header {
+      text-align: right;
+      font-size: 45px;
+    }
+    #jumbotron-header span {
+      font-size: 45px;
+    }
+    #program-button {
+      width: 300px;
+      font-size: 16px;
+    }
+  }
 /* End of Jumbotron Styles */
 
 /* About Section Styles */
@@ -117,6 +153,7 @@ Version: 1.0
     text-align: center;
     font-family: 'Roboto', sans-serif;
     font-size: 12px;
+    font-weight: bold;
     border: 3px solid #69B2E2;
     color: #69B2E2;
     background-color: #FFF;
@@ -175,12 +212,64 @@ Version: 1.0
     top: 0px;
     left: -20px;
   }
+
+  @media screen and (min-width: 768px) {
+    .about-button {
+      font-size: 16px;
+      width: 300px;
+      padding: 25px 15px;
+    }
+    #about-header {
+      max-width: 400px;
+      font-size: 45px;
+      margin-right: auto;
+      margin-left: auto;
+    }
+    .bkg {
+      display: block;
+      position: relative;
+      margin-bottom: 50px;
+      margin-top: 80px;
+      z-index: 5;
+      text-align: center;
+    }
+    .bkg:after {
+      content: '';
+      position: absolute;
+      height: 768px;
+      width: 768px;
+      border-radius: 50%;
+      background-color: #B5D5A0;
+      display: block;
+      z-index: -1;
+      opacity: 0.25;  
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+    .toothbrush {
+      position: absolute;
+      height: 30px;
+      width: 768px;
+      background-color: #AD1F65;
+      z-index: 0;
+      top: -10px;
+      left: 0px;
+    }
+  }
+
+  @media screen and (min-width: 992px) {
+    .about-button:hover {
+      color: #FFF;
+      background-color: #69B2E2;
+    }
+  }
 /* End of About Section Styles */
 
 
 #logo-container {
   text-align: center;
-  margin: 20px 0 20px 0;
+  margin: 20px auto;
 }
 
 .news-and-press {
@@ -199,10 +288,16 @@ Version: 1.0
   font-weight: bold;
 }
 
+@media screen and (min-width: 768px) {
+  #news-header{
+    font-size: 45px;
+  }
+}
+
 .footer {
   background-color: #EAEAEA;
   text-align: center;
-  padding: 10px 5px 10px 5px;
+  padding: 10px 5px;
 }
 
 .footer p {
@@ -210,8 +305,23 @@ Version: 1.0
   font-size: 11px;
   font-family: 'Roboto', sans-serif;
   font-weight: bold;
-  margin: 20px 0 0 0;
+  margin: 10px 0 0 0;
 }
+
+.social-icon-footer {
+  color: #69B2E2;
+}
+
+@media screen and (min-width: 768px) {
+  .footer {
+    padding: 15px 5px;
+  }
+  .footer p {
+    margin-top: 0;
+    font-size: 12px;
+  }
+}
+
 
 
 

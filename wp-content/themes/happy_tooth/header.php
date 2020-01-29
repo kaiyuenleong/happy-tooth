@@ -10,19 +10,26 @@
 
 <body>
   <div class="container-fluid">
-    <nav class="navbar navbar-expand-lg fixed-top py-0 px-0 navbarSupportedContent">
-      <div class="navbar-brand">
-        <i class="fab fa-facebook-f social-icon"></i>
-        <i class="fab fa-twitter social-icon"></i>
-        <i class="fab fa-instagram social-icon"></i>
-        <i class="fab fa-linkedin-in social-icon"></i>
+    <nav class="navbar navbar-expand-xl fixed-top py-0 px-0">
+      <div class="navbar-brand social-icon-navbar">
+        <a href="">
+          <i class="fab fa-facebook-f social-icon"></i>
+        </a>
+        <a href="">
+          <i class="fab fa-twitter social-icon"></i>
+        </a>
+        <a href="">
+          <i class="fab fa-instagram social-icon"></i>
+        </a>
+        <a href="">
+          <i class="fab fa-linkedin-in social-icon"></i>
+        </a>
       </div>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span>
           <img src="wp-content\themes\happy_tooth\images\Group 12.png" />
         </span>
       </button>
-
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item">
@@ -56,7 +63,7 @@
 
   <div class="container-fluid">
     <div class="row">
-      <div class="col-12" id="logo-container">
+      <div class="col" id="logo-container">
         <img src="wp-content\themes\happy_tooth\images\Group 116.png" />
       </div>
     </div>

@@ -5,7 +5,7 @@
 	<div class="row jumbotron">
 		<div class="col">
 			<div class="row">
-				<div class="col-8 offset-4">
+				<div class="col">
 					<h1 id="jumbotron-header" class="common-font">
 						<div>Buy a brush.</div>
 						<div>Give a brush.</div>
@@ -14,7 +14,7 @@
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-8 offset-4 program-button-container">
+				<div class="col program-button-container">
 					<button id="program-button">Learn about our programs</button>
 				</div>
 			</div>
@@ -24,7 +24,7 @@
 		<div class="col">
 			<div class="row">
 				<div class="col">
-					<h1 id="about-header" class="common-font">The Happy Tooth <span>Family Mission</span></h1>
+					<h2 id="about-header" class="common-font">The Happy Tooth <span>Family Mission</span></h2>
 				</div>
 			</div>
 			<div class="row">
@@ -51,7 +51,7 @@
 		<div class="col">
 			<div class="row">
 				<div class="col">
-					<h1 id="news-header" class="common-font">News & Press</h1>
+					<h2 id="news-header" class="common-font">News & Press</h2>
 				</div>
 			</div>
 			<div class="row">
