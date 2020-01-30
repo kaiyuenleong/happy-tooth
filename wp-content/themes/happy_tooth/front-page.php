@@ -14,7 +14,7 @@
 				</div>
 			</div>
 			<div class="row">
-				<div class="col program-button-container">
+				<div class="col">
 					<button id="program-button" class="transparent">Learn about our programs</button>
 				</div>
 			</div>

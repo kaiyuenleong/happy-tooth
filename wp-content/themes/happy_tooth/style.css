@@ -7,6 +7,10 @@ Version: 1.0
 */
 
 /* Base Styles */
+  a:hover {
+    text-decoration: none !important;
+  } 
+
   body {
     padding-top: 50px;
   }
@@ -94,6 +98,12 @@ Version: 1.0
       font-family: 'Roboto', sans-serif;
       font-size: 16px;
     }
+    .nav-link:hover {
+      color: #69B2E2;
+    }
+    .nav-item > a:active, .nav-item > a:visited {
+      border-bottom: #69B2E2 solid 2px;
+    }
     .grant-link{ 
       color: #FFF;
     }
@@ -111,11 +121,11 @@ Version: 1.0
   }
 
   #jumbotron-header {
-    width: 180px;
+    width: 170px;
     text-align: left;
     color: #FFF;
     position: relative;
-    left: 45%;
+    left: 40%;
   }
 
   #jumbotron-header span {
@@ -135,7 +145,7 @@ Version: 1.0
     margin-top: 15px;
     position: relative;
     display: block;
-    left: 45%;
+    left: 40%;
   }
 
   @media screen and (min-width: 768px) {
@@ -292,6 +302,11 @@ Version: 1.0
     .about-button:hover {
       color: #FFF;
       background-color: #69B2E2;
+    }
+    .about-button:active, .about-button:visited {
+      background-color: #69B2E2;
+      color: #FFF;
+      text-decoration: solid underline #FFF;
     }
     #about-image {
       width: 125%;
