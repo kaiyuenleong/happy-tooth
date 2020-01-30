@@ -15,13 +15,13 @@
 			</div>
 			<div class="row">
 				<div class="col program-button-container">
-					<button id="program-button">Learn about our programs</button>
+					<button id="program-button" class="transparent">Learn about our programs</button>
 				</div>
 			</div>
 		</div>
 	</div>
 	<div class="row about">
-		<div class="col">
+		<div class="col-lg-6 col-xs-12">
 			<div class="row">
 				<div class="col">
 					<h2 id="about-header" class="common-font">The Happy Tooth <span>Family Mission</span></h2>
@@ -37,6 +37,8 @@
 					<button class="about-button">Our Vendor Partners</button>
 				</div>
 			</div>
+		</div>
+		<div class="col-lg-6 col-xs-12">
 			<div class="row">
 				<div class="col">
 					<span class="bkg">

@@ -10,7 +10,7 @@
 
 <body>
   <div class="container-fluid">
-    <nav class="navbar navbar-expand-xl fixed-top py-0 px-0">
+    <nav class="navbar navbar-expand-lg fixed-top py-0 px-0">
       <div class="navbar-brand social-icon-navbar">
         <a href="">
           <i class="fab fa-facebook-f social-icon"></i>
@@ -63,7 +63,7 @@
 
   <div class="container-fluid">
     <div class="row">
-      <div class="col" id="logo-container">
+      <div class="col logo-container">
         <img src="wp-content\themes\happy_tooth\images\Group 116.png" />
       </div>
     </div>
