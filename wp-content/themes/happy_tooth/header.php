@@ -26,7 +26,7 @@
         </a>
       </div>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span>
+        <span class="navbar-toggler-icon">
           <img src="wp-content\themes\happy_tooth\images\Group 12.png" />
         </span>
       </button>

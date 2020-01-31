@@ -39,10 +39,6 @@ Version: 1.0
     background-color: #FFF;
   }
 
-  .navbar-toggler {
-    padding-top: 0 !important;
-  }
-
   .navbar-collapse {
     background-color: #69B2E2;
     padding: 0;
@@ -65,9 +61,17 @@ Version: 1.0
     margin-top: 65px !important;
   }
 
+  .is-active {
+    background-color: #69B2E2;
+  }
+
   .social-icon {
     margin-left: 5px;
     margin-right: 5px;
+  }
+
+  .social-icon-is-active {
+    color: #FFF;
   }
 
   .social-icon-navbar {
@@ -370,12 +374,27 @@ Version: 1.0
 }
 
 .news-and-press {
-  /* background: url("images/dreamstime_xxl_108885965.png") 0 0 no-repeat cover; */
+  background-image: url("images/dreamstime_xxl_108885965@2x.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 0%;
   height: 575px;
   overflow-x: hidden;
   background-color: #69B2E2;
   padding-top: 30px;
   padding-bottom: 30px;
+  position: relative;
+}
+
+.news-and-press:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  background-color: #69B2E2;
+  opacity: 0.80;
 }
 
 #news-header {

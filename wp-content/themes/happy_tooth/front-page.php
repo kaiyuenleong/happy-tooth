@@ -58,7 +58,7 @@
 			</div>
 			<div class="row">
 				<div class="col">
-					<!-- Card Goes Here -->
+					
 				</div>
 			</div>
 		</div>
